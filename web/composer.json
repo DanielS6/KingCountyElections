@@ -1,0 +1,13 @@
+{
+	"require": {
+		"ulrichsg/getopt-php": "^4.0"
+	},
+	"require-dev": {
+		"danielescherzer/common-phpcs": "^0.0.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}

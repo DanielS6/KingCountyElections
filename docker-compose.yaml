@@ -1,0 +1,17 @@
+services:
+  db:
+    image: mysql
+    restart: always
+    volumes:
+      - ./mysqli:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./web:/var/www/html

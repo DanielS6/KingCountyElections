@@ -1,0 +1,10 @@
+# Database files get created automatically
+/mysqli
+
+# Composer stuff
+/web/composer.lock
+/web/vendor
+
+# PUT YOUR DATA HERE
+/web/data/*
+!/web/data/.gitkeep
